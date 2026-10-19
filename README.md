@@ -1,5 +1,5 @@
 # Ujian Tengah Semester (UTS) - Graf Sains Data
-**Program Studi S1 Sains Data — Universitas Negeri Surabaya**
+**Program Studi S1 Sains Data - Universitas Negeri Surabaya**
 
 ---
 
@@ -25,7 +25,6 @@ Repositori ini berisi dokumentasi lengkap dan kode implementasi **Ujian Tengah S
 ├── UTS GSD_2.1 Wrangling dan EDA.ipynb  # Filtering temporal P1/P2, VSM User/Item, Proyeksi & Similarity
 ├── UTS GSD_2.2 Analytics.ipynb          # User acak reproducible, KNN (k=5), Hit@5, & NDCG@5
 ├── requirements.txt                     # Daftar dependensi pustaka Python
-├── .gitignore                           # Filter file lokal dan dataset mentah berukuran besar
 ├── data/
 │   ├── events_p1_training.csv           # Dataset interaksi Fold Training P1 (15 Mei – 30 Juni 2015)
 │   └── events_p2_testing.csv            # Dataset interaksi Fold Testing P2 (01 Juli – 31 Juli 2015)
@@ -92,8 +91,8 @@ Pemisahan data interaksi dilakukan secara temporal (*chronological split*) untuk
 
 1. **Clone Repositori**:
    ```bash
-   git clone https://github.com/<username-github-anda>/UTS-Graf-Sains-Data.git
-   cd UTS-Graf-Sains-Data
+   git clone https://github.com/Bimzt/GSD-UTS-RetailRocket-Neo4j.git
+   cd GSD-UTS-RetailRocket-Neo4j
    ```
 
 2. **Siapkan Virtual Environment & Install Dependensi**:
